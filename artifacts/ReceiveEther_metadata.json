@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "valueInWei",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "valueInGwei",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "valueInEther",
+						"type": "uint256"
+					}
+				],
+				"name": "EtherRecieved",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"firstremix cpde.sol": "ReceiveEther"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"firstremix cpde.sol": {
+			"keccak256": "0x4ce01c264834fdd68b0da31b2cc6ab8b5fb3ced879c59020d940ab8e86ce736e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07d7976811baa25a45ff3eac849078e0d4a200a4605f9e4eed52f8ed03de5f00",
+				"dweb:/ipfs/QmWwozbAQaGnd8ZC7WNFEHRw63MPM1dFQQtXhFQ325hoZR"
+			]
+		}
+	},
+	"version": 1
+}
