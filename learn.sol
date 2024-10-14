@@ -18,8 +18,8 @@ contract IfElse {
          }
          return 2;
 
-        // shorthand way to write if / else statement
-        // the "?" operator is called the ternary operator
+         // shorthand way to write if / else statement
+         // the "?" operator is called the ternary operator
           return _x < 10 ? 1 : 2;
     }
 }
